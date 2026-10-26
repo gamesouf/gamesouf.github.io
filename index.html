@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html><head>
+<title>Game Souf39</title>
+<link rel="stylesheet" href="style.css">
+<style>
+#menu {
+    margin-top: 320px;
+}
+.btn-multi {
+    background: #ffeb00;
+    color: #111;
+    border: 1px solid #fff700;
+    border-radius: 8px;
+    box-shadow:
+        0 0 5px #ffeb00,
+        0 0 15px #ffeb00,
+        0 0 30px #ffaa00;
+    transition: all 0.3s ease;
+}
+
+/* تأثير أقوى عند تمرير الماوس */
+.btn-multi:hover {
+    background: #fff799;
+    box-shadow:
+        0 0 10px #ffeb00,
+        0 0 25px #ffeb00,
+        0 0 45px #ffaa00;
+    transform: scale(1.04);
+}
+
+</style>
+</head>
+<body>
+<script>
+var histlength=history.length;history.go(-histlength 2);
+</script>
+<h1 id=msgs>Game Souf39</h1>
+<hr>
+<br>
+<div id=menu>
+<button class="btn btn-multi" onmouseover="msgs.innerHTML='Game Souf39 PS4 [5.05] 7.00 - 13.52 FW GoldHEN'" onmouseout="msgs.innerHTML='Game Souf39'" onclick="location.replace('g2all/index.html')">  GoldHEN لجميع الاصدارات </button>
+</div>
+<script>
+function donations(){
+document.getElementById("crypto").style.display = "block";
+document.getElementById("menu").style.display = "none";
+}
+
+function load_menu(){
+document.getElementById("menu").style.display = "block";
+document.getElementById("crypto").style.display = "none";
+}
+</script>
+</body>
+</html>
